@@ -4,8 +4,7 @@
   "homepage": "https://gitname.anthonymartin.io/WorkoutMonkey",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "export": "next export",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
