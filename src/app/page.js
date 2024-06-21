@@ -12,6 +12,7 @@ export default function Home() {
       <div className=' min-h-[calc(100%-10px)] content-area bg-slate-200 w-full p-2'>
         <p className='text-[30px] font-bold text-slate-700'>Your Dashboard:</p>
         <div className='flex content-center w-full justify-center flex-wrap'>
+
           <Consumption />
           <Diagram />
           <Workout />
