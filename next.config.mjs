@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: "/WorkoutMonkey",
+    basePath: "",
+    images: {
+        unoptimized: true
+    }
 };
 
 export default nextConfig;
