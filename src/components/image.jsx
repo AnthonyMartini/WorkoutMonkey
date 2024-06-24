@@ -13,7 +13,7 @@ const Body = ({ itemList }) => {
 
     }
     return (
-        <svg width={500} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="Map" class="gen-by-synoptic-designer" viewBox="0 0 578 538" xmlSpace="preserve">
+        <svg width={500} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="Map" viewBox="0 0 578 538" xmlSpace="preserve">
 
             <polygon fill={colorsDict[itemList.Pec]} id="Left_Pec_Mayoris" className='hover:fill-blue-300' title="" points="144,116,142,149,159,156,183,150,190,130,169,116" />
             <polygon fill={colorsDict[itemList.Pec]} id="Right_Pec_Mayoris" title="" points="90,128,94,150,117,156,135,149,134,117,109,117" />
