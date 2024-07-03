@@ -46,7 +46,7 @@ export default function Workout() {
                     {data}
                     <h1>Available Workouts:</h1>
                     {data?.map((item) => (
-                        <p>{item.name}</p>
+                        <p key={item.name}>{item.name}</p>
                     ))
                     }
                 </div>
